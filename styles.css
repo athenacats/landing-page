@@ -56,6 +56,7 @@ a {
     flex: 50%;
     width: 400px;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .introduction {
@@ -67,4 +68,44 @@ h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 48px;
     font-weight: 800;
+    color: rgb(255, 205, 253);
+}
+
+button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    background-color: rgb(255, 205, 253);
+    color: #1f1a1f;
+    box-shadow: #0a080a;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+.categories {
+    display: flex;
+    padding: 16px 60px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex: 25%;
+    gap: 32px;
+}
+
+.choose img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.choose {
+    min-width: 150px;
+    min-height: 150px;
 }
