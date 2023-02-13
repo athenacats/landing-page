@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .introduction {
     display: flex;
     background-color: #1f1a1f;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 .header .left img {
     border-radius: 50%;
     justify-content: flex-start;
-    padding: 16px;
+    padding: 16px 48px;
     width: 100px;
 }
 
@@ -31,7 +31,7 @@ ul {
     justify-content: flex-end;
     gap: 16px;
     list-style: none;
-    padding-right: 8px;
+    padding-right: 48px;
     font-size: 24px;
     font-weight: 500;
 }
@@ -39,4 +39,9 @@ ul {
 a {
     text-decoration: none;
     color: rgb(255, 205, 253);
+}
+
+.main img {
+    border-radius: 20%;
+
 }
