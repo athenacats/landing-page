@@ -8,21 +8,21 @@ body {
     color: white;
     font-size: 20px;
     margin: 0;
+    height: 100vh;
 }
 
 .header, .introduction {
     display: flex;
     background-color: #1f1a1f;
     align-items: center;
-    margin: 0;
-    padding: 0;
     justify-content: space-between;
+    flex: 1;
+    padding: 16px 48px;
 }
 
 .header .left img {
     border-radius: 50%;
     justify-content: flex-start;
-    padding: 16px 48px;
     width: 100px;
 }
 
@@ -31,7 +31,6 @@ ul {
     justify-content: flex-end;
     gap: 16px;
     list-style: none;
-    padding-right: 48px;
     font-size: 24px;
     font-weight: 500;
 }
@@ -42,6 +41,22 @@ a {
 }
 
 .main img {
-    border-radius: 20%;
+    display: flex;
+    border-radius: 10%;
+    min-width: 300px;
+    min-height: auto;
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    object-fit: contain;
+}
 
+.text {
+    flex: 50%;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.introduction {
+    gap: 72px;
 }
