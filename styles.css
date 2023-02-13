@@ -87,7 +87,7 @@ button {
 
 .categories {
     display: flex;
-    padding: 16px 60px;
+    padding: 8px 60px;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
@@ -97,6 +97,7 @@ button {
     display: flex;
     flex: 25%;
     gap: 32px;
+    padding-bottom: 16px;
 }
 
 .choose img {
@@ -108,4 +109,8 @@ button {
 .choose {
     min-width: 150px;
     min-height: 150px;
+}
+
+.link {
+    text-align: center;
 }
