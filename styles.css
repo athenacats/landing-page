@@ -1,5 +1,6 @@
 body {
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
     background-color: rgb(110, 93, 110);
     display: flex;
     flex-direction: column;
