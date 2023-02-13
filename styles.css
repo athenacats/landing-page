@@ -28,7 +28,7 @@ body {
 ul {
     display: flex;
     justify-content: flex-end;
-    gap: 16px;
+    gap: 36px;
     list-style: none;
     font-size: 24px;
     font-weight: 500;
@@ -37,6 +37,8 @@ ul {
 a {
     text-decoration: none;
     color: rgb(255, 205, 253);
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
 }
 
 .main img {
