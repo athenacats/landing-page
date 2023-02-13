@@ -10,11 +10,15 @@ body {
 
 .header {
     display: flex;
-    padding: 16px;
     background-color: #1f1a1f;
-    color: ;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.header .left {
-
+.header .left img {
+    border-radius: 50%;
+    justify-content: flex-start;
+    padding: 8px;
+    
 }
