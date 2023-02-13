@@ -1,5 +1,4 @@
 body {
-    font-family: 'Dancing Script', cursive;
     font-family: 'EB Garamond', serif;
     background-color: #6e5d6e;
     display: flex;
@@ -60,4 +59,10 @@ a {
 .introduction {
     gap: 72px;
     padding-bottom: 48px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    font-weight: 800;
 }
