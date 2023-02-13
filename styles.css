@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    font-size: 20px;
 }
 
 .header {
@@ -14,11 +15,18 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
 }
 
 .header .left img {
     border-radius: 50%;
     justify-content: flex-start;
     padding: 8px;
-    
+    width: 150px;
+}
+
+.header .right {
+    text-decoration: none;
+    justify-content: flex-end;
+    gap: 32px;
 }
