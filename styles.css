@@ -114,3 +114,19 @@ button {
 .link {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 90px;
+    background-color: #ebc7eb;
+    margin-top: 48px;
+    color: #1f1a1f;
+    font-size: 24px;
+}
+
+.quote .name {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
