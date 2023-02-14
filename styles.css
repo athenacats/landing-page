@@ -74,7 +74,7 @@ h1 {
 button {
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
-    background-color: rgb(255, 205, 253);
+    background-color: #ffcdfd;
     color: #1f1a1f;
     box-shadow: #0a080a;
     border: none;
@@ -134,11 +134,12 @@ button {
 .contact {
     display: flex;
     margin: 48px 80px;
-    background-color: #1f1a1f ;
+    background-color: #ffcdfd ;
     padding: 16px 48px;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    color: #1f1a1f;
 }
 
 .contact .left h2 {
@@ -149,4 +150,9 @@ button {
 .contact .left p {
     margin-top: 4px;
     padding-top: 4px;
+}
+
+.contact .right button {
+    background-color: #ffcdfd;
+    border: 2px solid #1f1a1f;  
 }
