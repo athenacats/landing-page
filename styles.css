@@ -156,3 +156,9 @@ button {
     background-color: #ffcdfd;
     border: 2px solid #1f1a1f;  
 }
+
+.footer {
+    text-align: center;
+    background-color: #1f1a1f;
+    font-size: 16px;
+}
