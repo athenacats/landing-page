@@ -130,3 +130,23 @@ button {
     font-size: 20px;
     font-weight: 500;
 }
+
+.contact {
+    display: flex;
+    margin: 48px 80px;
+    background-color: #1f1a1f ;
+    padding: 16px 48px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contact .left h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.contact .left p {
+    margin-top: 4px;
+    padding-top: 4px;
+}
