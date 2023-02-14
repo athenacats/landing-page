@@ -118,11 +118,11 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 48px 90px;
+    padding: 48px 120px;
     background-color: #ebc7eb;
     margin-top: 48px;
     color: #1f1a1f;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .quote .name {
